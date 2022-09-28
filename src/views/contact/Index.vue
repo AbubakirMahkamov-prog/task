@@ -147,6 +147,8 @@ const leaveForm = () => {
     email: "",
     teg: ""
   }
+  UpdateId.value = null
+  FormType = 'create'
 }
 const formValue = ref({
     fio: "",
